@@ -1,0 +1,24 @@
+{
+  "name": "openfaas-env",
+  "version": "0.0.1",
+  "description": "Loads the OpenFaas secrets in a pod into the ENV variables",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acies-ai/openfaas-env.git"
+  },
+  "keywords": [
+    "openfaas",
+    "kubernetes",
+    "env"
+  ],
+  "author": "Acies AI",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/acies-ai/openfaas-env/issues"
+  },
+  "homepage": "https://github.com/acies-ai/openfaas-env#readme"
+}
